@@ -29,7 +29,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 1000 4700 1050
 $Comp
-L discipad-pcb-rescue:KEYSW-swapped-keyboard_parts SW1
+L discipad-pro-rescue:KEYSW-swapped-keyboard_parts-discipad-pcb-rescue SW1
 U 1 1 5BDB3743
 P 5750 1000
 F 0 "SW1" H 5750 1233 60  0000 C CNN
@@ -55,7 +55,7 @@ Wire Wire Line
 Wire Wire Line
 	5400 1000 5400 1050
 $Comp
-L discipad-pcb-rescue:KEYSW-swapped-keyboard_parts SW2
+L discipad-pro-rescue:KEYSW-swapped-keyboard_parts-discipad-pcb-rescue SW2
 U 1 1 5BDB4A41
 P 6450 1000
 F 0 "SW2" H 6450 1233 60  0000 C CNN
@@ -81,7 +81,7 @@ Wire Wire Line
 Wire Wire Line
 	6100 1000 6100 1050
 $Comp
-L discipad-pcb-rescue:KEYSW-swapped-keyboard_parts SW3
+L discipad-pro-rescue:KEYSW-swapped-keyboard_parts-discipad-pcb-rescue SW3
 U 1 1 5BDB5E7B
 P 7150 1000
 F 0 "SW3" H 7150 1233 60  0000 C CNN
@@ -107,7 +107,7 @@ Wire Wire Line
 Wire Wire Line
 	6800 1000 6800 1050
 $Comp
-L discipad-pcb-rescue:KEYSW-swapped-keyboard_parts SW4
+L discipad-pro-rescue:KEYSW-swapped-keyboard_parts-discipad-pcb-rescue SW4
 U 1 1 5BDD4A79
 P 5050 1550
 F 0 "SW4" H 5050 1783 60  0000 C CNN
@@ -133,7 +133,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 1550 4700 1600
 $Comp
-L discipad-pcb-rescue:KEYSW-swapped-keyboard_parts SW5
+L discipad-pro-rescue:KEYSW-swapped-keyboard_parts-discipad-pcb-rescue SW5
 U 1 1 5BDD4A89
 P 5750 1550
 F 0 "SW5" H 5750 1783 60  0000 C CNN
@@ -159,7 +159,7 @@ Wire Wire Line
 Wire Wire Line
 	5400 1550 5400 1600
 $Comp
-L discipad-pcb-rescue:KEYSW-swapped-keyboard_parts SW6
+L discipad-pro-rescue:KEYSW-swapped-keyboard_parts-discipad-pcb-rescue SW6
 U 1 1 5BDD4A99
 P 6450 1550
 F 0 "SW6" H 6450 1783 60  0000 C CNN
@@ -230,12 +230,12 @@ Wire Wire Line
 Wire Wire Line
 	6100 2150 6100 2200
 $Comp
-L discipad-pcb-rescue:KEYSW-swapped-keyboard_parts SW7
+L discipad-pro-rescue:KEYSW-swapped-keyboard_parts-discipad-pcb-rescue SW7
 U 1 1 5BE2E3C3
 P 7150 2150
 F 0 "SW7" H 7150 2383 60  0000 C CNN
 F 1 "KEYSW" H 7150 2050 60  0001 C CNN
-F 2 "discipad:MXOnly-2U-Hotswap-ReversedStabilizers" H 7150 2150 60  0001 C CNN
+F 2 "discipad:Kailh_MX_Socket-2u-swapped-pads-reversed-stabilizer" H 7150 2150 60  0001 C CNN
 F 3 "" H 7150 2150 60  0000 C CNN
 	1    7150 2150
 	1    0    0    -1  
@@ -301,7 +301,7 @@ Wire Wire Line
 Wire Wire Line
 	5400 2750 5400 2800
 $Comp
-L discipad-pcb-rescue:KEYSW-swapped-keyboard_parts SW15
+L discipad-pro-rescue:KEYSW-swapped-keyboard_parts-discipad-pcb-rescue SW15
 U 1 1 5BE64C5B
 P 5050 3300
 F 0 "SW15" H 5050 3533 60  0000 C CNN
@@ -340,7 +340,7 @@ Wire Wire Line
 Wire Wire Line
 	6100 3300 6100 3350
 $Comp
-L discipad-pcb-rescue:KEYSW-swapped-keyboard_parts SW14
+L discipad-pro-rescue:KEYSW-swapped-keyboard_parts-discipad-pcb-rescue SW14
 U 1 1 5BE64C7A
 P 7150 3300
 F 0 "SW14" H 7150 3533 60  0000 C CNN
@@ -416,7 +416,7 @@ Connection ~ 6100 3650
 Text Label 4650 3650 0    50   ~ 0
 row4
 Wire Wire Line
-	5350 1000 5350 1550
+	5350 1000 5350 1175
 Wire Wire Line
 	5350 1550 5350 2150
 Connection ~ 5350 1550
@@ -497,7 +497,7 @@ Wire Wire Line
 	7450 2150 7450 3300
 Connection ~ 7450 2150
 $Comp
-L discipad-pcb-rescue:ATmega328P-PU-MCU_Microchip_ATmega U1
+L discipad-pro-rescue:ATmega328P-PU-MCU_Microchip_ATmega-discipad-pcb-rescue U1
 U 1 1 5D2C1379
 P 1200 6025
 F 0 "U1" V 825 6100 50  0000 R CNN
@@ -534,7 +534,7 @@ F 3 "" H 1200 7525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L discipad-pcb-rescue:USB_C_GCT_USB4085-Type-C USB1
+L discipad-pro-rescue:USB_C_GCT_USB4085-Type-C-discipad-pcb-rescue USB1
 U 1 1 5D2C4195
 P 4750 6025
 F 0 "USB1" H 4581 7062 60  0000 C CNN
@@ -825,7 +825,7 @@ D-
 Text GLabel 1800 6325 2    50   Input ~ 0
 reset
 $Comp
-L discipad-pcb-rescue:SW_PUSH-keyboard_parts RESET1
+L discipad-pro-rescue:SW_PUSH-keyboard_parts-discipad-pcb-rescue RESET1
 U 1 1 5D2FCD08
 P 2825 5525
 F 0 "RESET1" H 2825 5780 50  0000 C CNN
@@ -945,12 +945,12 @@ $EndComp
 Wire Wire Line
 	2800 7375 2800 7525
 $Comp
-L discipad-pcb-rescue:SW_PUSH-keyboard_parts BOOT1
+L discipad-pro-rescue:SW_PUSH-keyboard_parts-discipad-pcb-rescue BOOT1
 U 1 1 5D2C0447
 P 2825 4775
 F 0 "BOOT1" H 2825 5030 50  0000 C CNN
 F 1 "BOOT" H 2825 4939 50  0000 C CNN
-F 2 "" H 2825 4775 60  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 2825 4775 60  0001 C CNN
 F 3 "" H 2825 4775 60  0000 C CNN
 	1    2825 4775
 	1    0    0    -1  
@@ -995,12 +995,12 @@ miso
 Text GLabel 1800 5325 2    50   Input ~ 0
 sck
 $Comp
-L discipad-pcb-rescue:AVR-ISP-6-Connector J1
+L discipad-pro-rescue:AVR-ISP-6-Connector-discipad-pcb-rescue J1
 U 1 1 5D2C325D
 P 9925 5050
 F 0 "J1" H 9645 5146 50  0000 R CNN
 F 1 "AVR-ISP-6" H 9645 5055 50  0000 R CNN
-F 2 "" V 9675 5100 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" V 9675 5100 50  0001 C CNN
 F 3 " ~" H 8650 4500 50  0001 C CNN
 	1    9925 5050
 	1    0    0    -1  
@@ -1035,34 +1035,6 @@ F 3 "" H 9825 5450 50  0001 C CNN
 	1    9825 5450
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+5V #PWR0116
-U 1 1 5D2C3FB7
-P 7500 4875
-F 0 "#PWR0116" H 7500 4725 50  0001 C CNN
-F 1 "+5V" H 7515 5048 50  0000 C CNN
-F 2 "" H 7500 4875 50  0001 C CNN
-F 3 "" H 7500 4875 50  0001 C CNN
-	1    7500 4875
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0117
-U 1 1 5D2C405E
-P 8450 4875
-F 0 "#PWR0117" H 8450 4625 50  0001 C CNN
-F 1 "GND" H 8455 4702 50  0000 C CNN
-F 2 "" H 8450 4875 50  0001 C CNN
-F 3 "" H 8450 4875 50  0001 C CNN
-	1    8450 4875
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7500 4875 7700 4875
-Wire Wire Line
-	7900 4875 8050 4875
-Wire Wire Line
-	8350 4875 8450 4875
 Wire Notes Line
 	525  4075 525  7775
 Wire Notes Line
@@ -1088,18 +1060,6 @@ Wire Notes Line
 Wire Notes Line
 	525  4275 3650 4275
 Wire Notes Line
-	7075 4075 7075 5225
-Wire Notes Line
-	7075 5225 8825 5225
-Wire Notes Line
-	8825 5225 8825 4075
-Wire Notes Line
-	8825 4075 7075 4075
-Wire Notes Line
-	7075 4275 8825 4275
-Text Notes 8500 4250 2    118  Italic 24
-POWER LED
-Wire Notes Line
 	8975 5775 10900 5775
 Wire Notes Line
 	10900 5775 10900 4075
@@ -1112,7 +1072,7 @@ Wire Notes Line
 Text Notes 10100 4250 2    118  Italic 24
 ISP
 $Comp
-L discipad-pcb-rescue:KEYSW-swapped-keyboard_parts SW0
+L discipad-pro-rescue:KEYSW-swapped-keyboard_parts-discipad-pcb-rescue SW0
 U 1 1 5BDAA9A5
 P 5050 1000
 F 0 "SW0" H 5050 1233 60  0000 C CNN
@@ -1149,7 +1109,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 3650 6100 3650
 $Comp
-L discipad-pcb-rescue:KEYSW-swapped-keyboard_parts SW16
+L discipad-pro-rescue:KEYSW-swapped-keyboard_parts-discipad-pcb-rescue SW16
 U 1 1 5BE64C6A
 P 6450 3300
 F 0 "SW16" H 6450 3533 60  0000 C CNN
@@ -1160,7 +1120,7 @@ F 3 "" H 6450 3300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L discipad-pcb-rescue:KEYSW-swapped-keyboard_parts SW13
+L discipad-pro-rescue:KEYSW-swapped-keyboard_parts-discipad-pcb-rescue SW13
 U 1 1 5BE34843
 P 6450 2750
 F 0 "SW13" H 6450 2983 60  0000 C CNN
@@ -1171,7 +1131,7 @@ F 3 "" H 6450 2750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L discipad-pcb-rescue:KEYSW-swapped-keyboard_parts SW12
+L discipad-pro-rescue:KEYSW-swapped-keyboard_parts-discipad-pcb-rescue SW12
 U 1 1 5BE34853
 P 5750 2750
 F 0 "SW12" H 5750 2983 60  0000 C CNN
@@ -1182,7 +1142,7 @@ F 3 "" H 5750 2750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L discipad-pcb-rescue:KEYSW-swapped-keyboard_parts SW11
+L discipad-pro-rescue:KEYSW-swapped-keyboard_parts-discipad-pcb-rescue SW11
 U 1 1 5BE34833
 P 5050 2750
 F 0 "SW11" H 5050 2983 60  0000 C CNN
@@ -1193,7 +1153,7 @@ F 3 "" H 5050 2750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L discipad-pcb-rescue:KEYSW-swapped-keyboard_parts SW10
+L discipad-pro-rescue:KEYSW-swapped-keyboard_parts-discipad-pcb-rescue SW10
 U 1 1 5BE2E3B3
 P 6450 2150
 F 0 "SW10" H 6450 2383 60  0000 C CNN
@@ -1204,7 +1164,7 @@ F 3 "" H 6450 2150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L discipad-pcb-rescue:KEYSW-swapped-keyboard_parts SW9
+L discipad-pro-rescue:KEYSW-swapped-keyboard_parts-discipad-pcb-rescue SW9
 U 1 1 5BE2E3A3
 P 5750 2150
 F 0 "SW9" H 5750 2383 60  0000 C CNN
@@ -1215,7 +1175,7 @@ F 3 "" H 5750 2150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L discipad-pcb-rescue:KEYSW-swapped-keyboard_parts SW8
+L discipad-pro-rescue:KEYSW-swapped-keyboard_parts-discipad-pcb-rescue SW8
 U 1 1 5BE2E393
 P 5050 2150
 F 0 "SW8" H 5050 2383 60  0000 C CNN
@@ -1226,25 +1186,49 @@ F 3 "" H 5050 2150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED LED1
-U 1 1 5D2C3A43
-P 8200 4875
-F 0 "LED1" H 8192 4620 50  0000 C CNN
-F 1 "POWER" H 8192 4711 50  0000 C CNN
-F 2 "" H 8200 4875 50  0001 C CNN
-F 3 "~" H 8200 4875 50  0001 C CNN
-	1    8200 4875
-	-1   0    0    1   
+L Device:Rotary_Encoder_Switch SW17
+U 1 1 611AA016
+P 4200 900
+F 0 "SW17" H 4200 1267 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 4200 1176 50  0000 C CNN
+F 2 "discipad:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm-for-MX" H 4050 1060 50  0001 C CNN
+F 3 "~" H 4200 1160 50  0001 C CNN
+	1    4200 900 
+	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4500 1000 4700 1000
+Connection ~ 4700 1000
+Wire Wire Line
+	4500 800  4950 800 
+Wire Wire Line
+	4950 800  4950 1175
+Wire Wire Line
+	4950 1175 5350 1175
+Connection ~ 5350 1175
+Wire Wire Line
+	5350 1175 5350 1550
+Text GLabel 1800 6125 2    50   Input ~ 0
+EN1
+Text GLabel 1800 6225 2    50   Input ~ 0
+EN2
+Text GLabel 3900 800  0    50   Output ~ 0
+EN1
+Text GLabel 3900 1000 0    50   Output ~ 0
+EN2
 $Comp
-L Device:R_Small R7
-U 1 1 5D2C3C60
-P 7800 4875
-F 0 "R7" V 7604 4875 50  0000 C CNN
-F 1 "1.5K" V 7695 4875 50  0000 C CNN
-F 2 "" H 7800 4875 50  0001 C CNN
-F 3 "~" H 7800 4875 50  0001 C CNN
-	1    7800 4875
-	0    1    1    0   
+L power:GND #PWR0118
+U 1 1 611BC26A
+P 3550 950
+F 0 "#PWR0118" H 3550 700 50  0001 C CNN
+F 1 "GND" H 3555 777 50  0000 C CNN
+F 2 "" H 3550 950 50  0001 C CNN
+F 3 "" H 3550 950 50  0001 C CNN
+	1    3550 950 
+	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3550 950  3550 900 
+Wire Wire Line
+	3550 900  3900 900 
 $EndSCHEMATC

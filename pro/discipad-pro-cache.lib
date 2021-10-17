@@ -104,29 +104,6 @@ X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_LED
-#
-DEF Device_LED D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "Device_LED" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- LED*
- LED_SMD:*
- LED_THT:*
-$ENDFPLIST
-DRAW
-P 2 0 1 10 -50 -50 -50 50 N
-P 2 0 1 0 -50 0 50 0 N
-P 4 0 1 10 50 -50 50 50 -50 0 50 -50 N
-P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
-P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Device_Polyfuse_Small
 #
 DEF Device_Polyfuse_Small F 0 0 N Y 1 F N
@@ -164,11 +141,49 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# discipad-pcb-rescue_ATmega328P-PU-MCU_Microchip_ATmega
+# Device_Rotary_Encoder_Switch
 #
-DEF discipad-pcb-rescue_ATmega328P-PU-MCU_Microchip_ATmega U 0 20 Y Y 1 F N
+DEF Device_Rotary_Encoder_Switch SW 0 10 Y N 1 F N
+F0 "SW" 0 260 50 H V C CNN
+F1 "Device_Rotary_Encoder_Switch" 0 -260 50 H V C CNN
+F2 "" -150 160 50 H I C CNN
+F3 "" 0 260 50 H I C CNN
+$FPLIST
+ RotaryEncoder*Switch*
+$ENDFPLIST
+DRAW
+A -15 -2 108 -899 899 0 1 10 N -15 -110 -15 105
+C -150 0 10 0 1 0 F
+C -15 0 75 0 1 10 N
+C 170 -40 5 0 1 10 N
+C 170 40 5 0 1 10 N
+S -200 200 200 -200 0 1 10 f
+P 2 0 1 10 -25 -70 -25 70 N
+P 2 0 1 10 -15 -70 -15 70 N
+P 2 0 1 10 -5 70 -5 -70 N
+P 2 0 1 10 150 0 135 0 N
+P 2 0 1 10 150 40 150 -40 N
+P 3 0 1 0 -200 -100 -150 -100 -150 -80 N
+P 3 0 1 0 -200 100 -150 100 -150 80 N
+P 3 0 1 10 10 -120 -20 -110 5 -95 N
+P 3 0 1 10 10 115 -20 105 5 90 N
+P 3 0 1 10 200 -100 170 -100 170 -40 N
+P 3 0 1 10 200 100 170 100 170 40 N
+P 4 0 1 0 -200 0 -150 0 -150 -40 -130 -80 N
+P 4 0 1 0 -170 0 -150 0 -150 40 -130 80 N
+X A A -300 100 100 R 50 50 1 1 P
+X B B -300 -100 100 R 50 50 1 1 P
+X C C -300 0 100 R 50 50 1 1 P
+X S1 S1 300 100 100 L 50 50 1 1 P
+X S2 S2 300 -100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# discipad-pro-rescue_ATmega328P-PU-MCU_Microchip_ATmega-discipad-pcb-rescue
+#
+DEF discipad-pro-rescue_ATmega328P-PU-MCU_Microchip_ATmega-discipad-pcb-rescue U 0 20 Y Y 1 F N
 F0 "U" -500 1450 50 H V L BNN
-F1 "discipad-pcb-rescue_ATmega328P-PU-MCU_Microchip_ATmega" 100 -1450 50 H V L TNN
+F1 "discipad-pro-rescue_ATmega328P-PU-MCU_Microchip_ATmega-discipad-pcb-rescue" 100 -1450 50 H V L TNN
 F2 "Package_DIP:DIP-28_W7.62mm" 0 0 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -207,11 +222,11 @@ X XTAL1/PB6 9 600 600 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# discipad-pcb-rescue_AVR-ISP-6-Connector
+# discipad-pro-rescue_AVR-ISP-6-Connector-discipad-pcb-rescue
 #
-DEF discipad-pcb-rescue_AVR-ISP-6-Connector J 0 40 Y Y 1 F N
+DEF discipad-pro-rescue_AVR-ISP-6-Connector-discipad-pcb-rescue J 0 40 Y Y 1 F N
 F0 "J" 0 400 50 H V L CNN
-F1 "discipad-pcb-rescue_AVR-ISP-6-Connector" 0 -300 50 H V L CNN
+F1 "discipad-pro-rescue_AVR-ISP-6-Connector-discipad-pcb-rescue" 0 -300 50 H V L CNN
 F2 "" -250 50 50 V I C CNN
 F3 "" -1275 -550 50 H I C CNN
 $FPLIST
@@ -235,11 +250,11 @@ X GND 6 -100 -400 150 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# discipad-pcb-rescue_KEYSW-swapped-keyboard_parts
+# discipad-pro-rescue_KEYSW-swapped-keyboard_parts-discipad-pcb-rescue
 #
-DEF discipad-pcb-rescue_KEYSW-swapped-keyboard_parts K? 0 40 Y Y 1 F N
+DEF discipad-pro-rescue_KEYSW-swapped-keyboard_parts-discipad-pcb-rescue K? 0 40 Y Y 1 F N
 F0 "K?" -50 0 60 H V C CNN
-F1 "discipad-pcb-rescue_KEYSW-swapped-keyboard_parts" 0 -100 60 H I C CNN
+F1 "discipad-pro-rescue_KEYSW-swapped-keyboard_parts-discipad-pcb-rescue" 0 -100 60 H I C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -251,11 +266,11 @@ X ~ 2 300 0 50 L 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
-# discipad-pcb-rescue_SW_PUSH-keyboard_parts
+# discipad-pro-rescue_SW_PUSH-keyboard_parts-discipad-pcb-rescue
 #
-DEF discipad-pcb-rescue_SW_PUSH-keyboard_parts SW 0 40 N N 1 F N
+DEF discipad-pro-rescue_SW_PUSH-keyboard_parts-discipad-pcb-rescue SW 0 40 N N 1 F N
 F0 "SW" 150 110 50 H V C CNN
-F1 "discipad-pcb-rescue_SW_PUSH-keyboard_parts" 0 -80 50 H V C CNN
+F1 "discipad-pro-rescue_SW_PUSH-keyboard_parts-discipad-pcb-rescue" 0 -80 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -266,11 +281,11 @@ X 2 2 300 0 200 L 60 60 0 1 P I
 ENDDRAW
 ENDDEF
 #
-# discipad-pcb-rescue_USB_C_GCT_USB4085-Type-C
+# discipad-pro-rescue_USB_C_GCT_USB4085-Type-C-discipad-pcb-rescue
 #
-DEF discipad-pcb-rescue_USB_C_GCT_USB4085-Type-C USB 0 40 Y Y 1 F N
+DEF discipad-pro-rescue_USB_C_GCT_USB4085-Type-C-discipad-pcb-rescue USB 0 40 Y Y 1 F N
 F0 "USB" -200 900 60 H V C CNN
-F1 "discipad-pcb-rescue_USB_C_GCT_USB4085-Type-C" -400 -50 60 V V C CNN
+F1 "discipad-pro-rescue_USB_C_GCT_USB4085-Type-C-discipad-pcb-rescue" -400 -50 60 V V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
