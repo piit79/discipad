@@ -1,28 +1,28 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,5.1.7-a382d34a8~88~ubuntu20.04.1*%
-%TF.CreationDate,2021-03-29T23:20:07+02:00*%
-%TF.ProjectId,discipad-bottom-pcb,64697363-6970-4616-942d-626f74746f6d,rev?*%
-%TF.SameCoordinates,Original*%
-%TF.FileFunction,Copper,L1,Top*%
-%TF.FilePolarity,Positive*%
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,5.1.10-88a1d61d58~90~ubuntu21.04.1*
+G04 #@! TF.CreationDate,2021-08-17T12:33:01+02:00*
+G04 #@! TF.ProjectId,discipad-bottom-pcb,64697363-6970-4616-942d-626f74746f6d,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Copper,L1,Top*
+G04 #@! TF.FilePolarity,Positive*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 5.1.7-a382d34a8~88~ubuntu20.04.1) date 2021-03-29 23:20:07*
+G04 Created by KiCad (PCBNEW 5.1.10-88a1d61d58~90~ubuntu21.04.1) date 2021-08-17 12:33:01*
 %MOMM*%
 %LPD*%
 G01*
 G04 APERTURE LIST*
-%TA.AperFunction,ComponentPad*%
+G04 #@! TA.AperFunction,ComponentPad*
 %ADD10C,8.600000*%
-%TD*%
-%TA.AperFunction,ComponentPad*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,ComponentPad*
 %ADD11C,4.400000*%
-%TD*%
-%TA.AperFunction,Conductor*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,Conductor*
 %ADD12C,0.254000*%
-%TD*%
-%TA.AperFunction,Conductor*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,Conductor*
 %ADD13C,0.150000*%
-%TD*%
+G04 #@! TD*
 G04 APERTURE END LIST*
 D10*
 X123158765Y-53561440D03*
@@ -352,7 +352,7 @@ X108456004Y-15868118D01*
 X108992439Y-15811737D01*
 X178654854Y-15811737D01*
 X179193363Y-15864539D01*
-%TA.AperFunction,Conductor*%
+G04 #@! TA.AperFunction,Conductor*
 D13*
 G36*
 X179193363Y-15864539D02*
@@ -673,5 +673,5 @@ X108992439Y-15811737D01*
 X178654854Y-15811737D01*
 X179193363Y-15864539D01*
 G37*
-%TD.AperFunction*%
+G04 #@! TD.AperFunction*
 M02*
