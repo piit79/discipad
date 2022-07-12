@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name discipad-pcb-rescue)(type Legacy)(uri ${KIPRJMOD}/discipad-pcb-rescue.lib)(options "")(descr ""))
+  (lib (name "discipad-pcb-rescue")(type "Legacy")(uri "${KIPRJMOD}/discipad-pcb-rescue.lib")(options "")(descr ""))
+  (lib (name "42keebs")(type "KiCad")(uri "${KIPRJMOD}/42keebs-kicad/symbols/42Keebs.kicad_sym")(options "")(descr ""))
 )

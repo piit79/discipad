@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name "keyboard_parts")(type "KiCad")(uri "${KIPRJMOD}/keyboard_parts.pretty")(options "")(descr ""))
+  (lib (name "discipad")(type "KiCad")(uri "${KIPRJMOD}/discipad.pretty")(options "")(descr ""))
+  (lib (name "42keebs")(type "KiCad")(uri "${KIPRJMOD}/42keebs-kicad/footprints/")(options "")(descr ""))
+)
