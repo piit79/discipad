@@ -1,10 +1,10 @@
 # DISCIPAD
 
-[Build Guide](https://static1.squarespace.com/static/5c533d33348cd92b886e544d/t/5d90e24fbd027f6ecf7cfb2a/1569776210721/DISCIPAD+BUILD+GUIDE.pdf)
+[Build Guide](DISCIPAD_BUILD_GUIDE.pdf)
 
-[QMK Toolbox Flashing Guide (Recommended)](https://static1.squarespace.com/static/5c533d33348cd92b886e544d/t/5d8ee3dc9135ee1aa9e99cd6/1569645533886/DISCIPAD+FLASHING+GUIDE.pdf)
+[QMK Toolbox Flashing Guide (Recommended)](DISCIPAD_FLASHING_GUIDE.pdf)
 
-[Command Line Flashing Guide (Advanced)](https://static1.squarespace.com/static/5c533d33348cd92b886e544d/t/5d8ee3c1f21a152c431c6f4b/1569645506482/DISCIPAD+FLASHING+GUIDE+-+COMMAND+LINE.pdf)
+[Command Line Flashing Guide (Advanced)](DISCIPAD_FLASHING_GUIDE-COMMAND_LINE.pdf)
 
 [Bootloader](./bootloader)
 
